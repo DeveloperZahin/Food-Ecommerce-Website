@@ -1,0 +1,397 @@
+/* Bold HeadLine-------------         font-family: 'Barlow Condensed', sans-serif;            ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+/* Normalize ----------------font-family: 'Abel', sans-serif;------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* Style Italic Font---------         font-family: 'Abel', sans-serif; font-family: 'Shadows Into Light', cursive;            ------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Shadows+Into+Light&display=swap'); 
+
+
+
+body,
+html{
+    color: #0A262C;
+    font-weight: 500;
+    font-family: 'Abel', sans-serif;
+    scroll-behavior: smooth;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+button{
+    border: none;
+    background: transparent; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #0a414d;
+  font-family: "Livvic", sans-serif;
+  text-transform: capitalize;
+}
+
+.smallheadline{
+  color: #4AB102;
+  font-size: 25px;
+  font-family: 'Abel', sans-serif; 
+  font-family: 'Shadows Into Light', cursive; 
+  text-transform: capitalize;
+}
+
+                          /* --------------------- */
+                             /* Top nav Line */
+                          /* --------------------- */
+.food-topline {
+  padding: 10px 30px;
+  background: #02181c;
+  text-align: center;
+}
+.food-h-group {
+  font-size: 14px;
+  color: #ced2d5;
+  text-transform: uppercase
+}
+
+.food-h-group em,.food-h-group i {
+  color: #1D8007;
+  font-style: normal
+}
+.food-h-social {
+  display: inline-block;
+  font-family: Oswald;
+  font-size: 15px;
+  text-align: center
+}
+
+.food-h-social a {
+  margin: 0 8px;
+  display: inline-block;
+  text-decoration: none
+}
+
+.food-h-social i {
+  color: #ced2d5;
+  font-style: normal
+}
+.food-h-social i:hover {
+  color: #1D8007;
+}
+                        
+
+                           /* --------------------- */
+                              /* Navbar Section */
+                           /* --------------------- */
+
+.navbar {
+  background: url(/images/Png/Navber.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px 50px;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0rem;
+  width: 75px;
+  margin-bottom: 0px;
+  margin-top: -10px;
+}
+
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  padding: 5px 20px;
+  margin: 0px 2px;
+  z-index: 1;
+}
+.navbar-light .navbar-toggler {
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  outline: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 0;
+  width: 100%;
+  background: linear-gradient(to right, #0f7404, #5cb917);
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.3s;
+  border-radius: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus::before,
+.navbar-light .navbar-nav .nav-link:hover::before {
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fafafa;
+}
+
+.header-content {
+  display: inline-block;
+  display: flex;
+}
+
+.header_contact {
+  display: inline-block;
+}
+
+.header_contact span {
+  color: #60cd12;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.header_contact span.phone_no {
+  color: #fff;
+  font-size: 16px;
+}
+
+.header_icon {
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  background-color: #13424a;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+
+.header_icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1.9;
+}
+
+.header_icon {
+  display: inline-block;
+  position: relative;
+}
+
+.header_icon .cart_no {
+  position: absolute;
+  top: 0px;
+  right: -5px;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+  background-color: #51af14;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.9;
+}
+
+.dropdown-menu{
+  background-color: #03262c;
+}
+.dropdown-item {
+  color: #ffffff;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #1d8007;
+}
+
+@media (max-width: 992px) {
+  .header-content,
+  .food-topline
+   {
+      display: none;
+  }
+}
+
+              /* -------------------------------------library for All page--------------------------------------- */
+                                        
+                           /* --------------------- */
+                              /* Header Section */
+                           /* --------------------- */
+
+.othernavbar{
+  padding: 20px 0;
+  position: relative;
+  background-image: url(/images/top-banner.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.other_content h2 {
+  color: #0A262C;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Barlow Condensed', sans-serif;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+
+
+
+
+                           /* --------------------- */
+                              /* Scroll Section */
+                           /* --------------------- */
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #4AB102, white);
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+    background: linear-gradient(90deg, #3C8D02, #4AB102);
+}
+
+::-webkit-scrollbar-track {
+    background: #4AB102;
+}
+
+
+
+
+
+
+
+
+
+
+
+                           /* --------------------- */
+                              /*  Shop Button   */
+                           /* --------------------- */
+
+.addbutton{
+    border: 3px solid #9fc981;
+    background: transparent;
+    color: #4AB102;
+    margin: 20px 0;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+  
+.addbutton:hover {
+  color: white;
+  background: linear-gradient(to right, #0C7400, #4AB102); 
+  border: 3px solid #9fc981;;
+}
+
+
+                           /* --------------------- */
+                              /*Read More button */
+                           /* --------------------- */
+.readmore {
+    color: white;
+    margin: 20px 0;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(to right, #0C7400, #4AB102); 
+    border: 3px solid #9fc981;;
+}
+  
+.readmore:hover {
+    border: 3px solid #9fc981;
+    background: linear-gradient(to right, #4AB102, #0C7400); 
+    color: white;
+}
+
+
+/*-------------------------*/
+    /*  Icon Section  */
+/*-------------------------*/
+.icon-container {
+  position: fixed;
+  bottom: 80px; 
+  left: 10px;
+  background-color: #4AB102;
+  padding: 15px 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.icon-container i {
+  font-size: 24px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+#message-icon {
+    color: #4AB102;
+    cursor: help;
+    position: fixed;
+    bottom: 10px; 
+    left: 10px; 
+    z-index: 1000; 
+  }
+  
+
+  #message-popup {
+    display: none;
+    position: fixed;
+    bottom: 10px; 
+    left: 65px; 
+    padding: 10px;
+  }
+  
+
+  #message-popup.active {
+    display: block;
+    color: #9fc981;    
+  }

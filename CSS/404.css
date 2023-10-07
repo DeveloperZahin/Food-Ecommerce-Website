@@ -1,0 +1,55 @@
+.readmore {
+    color: white;
+    margin: 20px 0;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(to right, #0C7400, #4AB102); 
+    border: 3px solid #9fc981;;
+}
+  
+.readmore:hover {
+    border: 3px solid #9fc981;
+    background: linear-gradient(to right, #4AB102, #0C7400); 
+    color: white;
+}
+
+.page_404
+{
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Poppins';
+}
+
+.page_404 img
+{
+    width: 100%;
+}
+
+.four_zero_four_bg
+{
+    background: url(/images/404.gif);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+}
+
+h1
+{
+    font-size: 80px;
+}
+
+h3
+{
+    font-size: 80px;
+}
+
+.content_box_404
+{
+    margin-top: -50px;
+}

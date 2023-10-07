@@ -1,0 +1,558 @@
+/* Bold HeadLine-------------         font-family: 'Barlow Condensed', sans-serif;            ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+/* Normalize ----------------font-family: 'Abel', sans-serif;------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* Style Italic Font---------         font-family: 'Abel', sans-serif; font-family: 'Shadows Into Light', cursive;            ------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Shadows+Into+Light&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+                            /* --------------------- */
+                              /* All Heading Line */
+                           /* --------------------- */
+.Discorver{
+    color: rgb(6, 141, 6);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script';
+    margin-top: 5%;
+    transform: translateY(10px);
+}
+.TextHadding{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #01262C; 
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+.TextHadding:hover{
+    color: #4AB102;
+    letter-spacing: 10px;
+}
+.TextHaddinp{
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.TextHaddinp:hover{
+    color: #1B1B1D;
+}
+
+
+
+
+
+                           /* -------------------- */
+                              /* Header Section */
+                           /* -------------------- */
+.Headersize{
+    width: 100%;
+    height: 100%;
+}
+.Homenavbar{
+    padding: 20px 0;
+    background-image: url(/images/Bg-\(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+
+}
+.homesize{
+    width: 100%;
+    height: 100%;
+}
+
+.Header{
+    text-align: left;
+    margin: 10%;
+}
+.organic{
+    color: #0A262C;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.Organicname{
+    color: #1D8007;
+}
+.findservice{
+    color: white;
+    background-color: #0A262C;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 10px;
+    width: auto;
+    height: auto;
+    margin-left: 12px;
+}
+.Header p{
+    color: #0A262C;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Search Box Styles */
+
+#search-input {
+    padding: 10px;
+    border: 2px solid #0A262C;
+    border-radius: 50px;
+    font-size: 16px;
+    width: 30%;
+    margin-right: 10px;
+}
+#search-button {
+    color: white;
+    margin: 20px 0;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(to right, #0C7400, #4AB102); 
+    border: 3px solid #9fc981;;
+    border-radius: 50px;
+}
+  
+#search-button:hover {
+    background: linear-gradient(to right, #4AB102, #0C7400); 
+}
+
+.Popular{
+    color: #0A262C;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.Popular a{
+    color: #0A262C;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.Popular a:hover{
+    color: #4AB102;
+}
+                           /* -------------------- */
+                              /*  Reservations */
+                           /* -------------------- */
+.basic-info-area .single-item .item h4{
+    color: #01262C;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.basic-info-area .single-item .item p{
+    color: gray;
+    font-size: 15px;
+}
+.basic-info-area .single-item .item h2{
+    color: gray;
+}
+.basic-info-area .single-item .item form input{
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.basic-info-area .single-item .item form {
+    margin-left: 70px;
+}
+.basic-info-area .single-item .item form button{
+    border: none;
+    border-radius: 25px;
+    padding: 0 25px;
+    margin: 3px;
+    color: white;
+    background: linear-gradient(to right, #4AB102, #0C7400); 
+}
+.basic-info-area .single-item .item form .input-group{
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 80%;
+}
+
+
+                           /* -------------------- */
+                              /* Features Section */
+                           /* -------------------- */
+
+.feature_section .feature_box{
+    background-color: transparent;
+    border: 0.15rem solid #e2f6de;
+    padding: 4rem 0 2.5rem 0;
+    transition: all 0.3s;
+}
+.feature_section .feature-icon-border{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.2rem solid #e2f6de;
+    padding: 1.3rem;
+    display: inline-block;
+}
+.feature_section .feature_box .feature-icon{
+    height: 6.5rem;
+    width: 6.5rem;
+    background-color: #e2f6de;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature_section .feature_box .feature-icon img{
+    width: 3.7rem;
+}
+
+.feature_section .feature_box h3{
+    margin-top: 1.5rem;
+    color: #061738;
+}
+.feature_section .feature_box:hover{
+    background-color: #03262c;
+    border-color: #03262c;
+}
+.feature_section .feature_box:hover h3{
+    color: white;
+}
+.feature_section .feature_box:hover .feature-icon-border{
+    border-color: #4AB102;
+}
+                           /* ----------------------- */
+                              /* Categories Section */
+                           /* ----------------------- */
+
+.Categories .image{
+    margin-top: 10px;
+    height: 80%;
+    width: 80%;
+    border: 2px solid #E2F6DE;
+}
+.Categories .image:hover{
+
+    border: 2px solid #01262C;
+}
+.Categoriesborder{
+    border: 3px solid transparent;
+}
+.Categoriesborder:hover{
+    color: #01262C;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: 3px solid #4AB102;
+}
+
+
+
+
+                           /* ------------------------- */
+                              /* Best Selling Section */
+                           /* ------------------------- */
+.card__container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.card__article {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.card__img {
+  border-radius: 10px;
+}
+
+
+.card__data {
+  width: 100%;
+  background-color: white;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px gray;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
+}
+
+
+.card__title {
+    color: #01262C;
+    font-size: 20px;
+}
+
+.card__button {
+    color: white;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: #03262c;
+    box-shadow: 0 8px 24px rgb(209, 209, 209);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+/* Naming animations in hover */
+.card__article:hover .card__data {
+  animation: show-data 1s forwards;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.card__article:hover {
+  animation: remove-overflow 2s forwards;
+}
+
+.card__article:not(:hover) {
+  animation: show-overflow 2s forwards;
+}
+
+.card__article:not(:hover) .card__data {
+  animation: remove-data 1s forwards;
+}
+
+/* Card animation */
+@keyframes show-data {
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(-7rem);
+  }
+}
+
+
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem);
+  }
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(.5rem);
+  }
+}
+
+                           /* ---------------------- */
+                              /* Discount Section */
+                           /* ---------------------- */
+
+.product{
+    border: 1px solid #E2F6DE;
+}
+.product:hover{
+    border: 1px solid #cbdebd;
+    box-shadow: 1px 1px 10px 0px rgb(213, 213, 213);}
+.product .product-img{
+    height: 90%;
+    width: auto;
+}
+.product .product-content{
+    text-align: center;
+}
+.product-name{
+    text-decoration: none;
+    color: #01262C;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.product-prev-price{
+    text-decoration: line-through;
+    color: #d6d6d6;
+}
+.product-price{
+    color: #01262C;
+}
+
+/* Discount off */
+.product p{
+    text-align: right;
+    margin-right: 5px;
+}
+.product p span{
+    color: white;
+    background: #FF4800;
+    border-radius: 50px;
+    margin: 0;
+    color: #ffffff;
+    padding: 2px 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+                           /* ----------------------- */
+                              /* FlashSale Section */
+                           /* ---------------------- */
+.decoration1{
+    text-decoration: none;
+    color: black;
+} 
+
+.btn-group .active{
+    background-color: #4AB102;
+    color: white;
+}
+.FlashSale{
+    background-color: white;
+    color: #4AB102;
+}
+.FlashSale:hover{
+    background-color: #4AB102;
+    color: white;
+}
+
+.col{
+    border: 2px solid transparent;
+}
+.h-100 .card-body{
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+img{
+	max-width: 100%;
+}
+.ui-card{
+	width: auto;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease-out;
+	background:radial-gradient(#111 50%, #000 100%);
+}
+
+.ui-card img{
+	transform: scale(1.3);
+	transition: all 0.3s ease-out;
+}
+.ui-card:hover img{
+	transform: scale(1.1) translateY(-20px); 
+	opacity: 0.3
+}
+.ui-card .description{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+}
+.ui-card .description h3{
+    color: white;
+	font-weight: 700;
+	font-size: 25px;
+	margin: 0 0 20px;
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.3s ease-out;
+
+}
+.ui-card .description p{
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.3s ease-out 0.2s;
+}
+.ui-card .description a{
+	color: #fff;
+	background:#4AB102;
+	display: inline-block;
+	padding: 10px 25px;
+	text-decoration: none;
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.1s ease-out 0.1s;
+}
+.ui-card .description a:hover{
+    color: #4AB102;
+	background: white;
+}
+.ui-card:hover .description h3{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.ui-card:hover .description p{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.ui-card:hover .description a{
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+
+
+
+                            /* ------------------------- */
+                                /* Javascript Section */
+                            /* ------------------------- */
+
+.cardjs{
+    margin-top: 12px;
+}
+#filter-buttons button {
+  padding: 4px 12px;
+  background: #fff;
+  border-color: #cbdebd;
+}
+
+#filter-buttons button:hover {
+  background: #ddd;
+}
+
+#filter-buttons button.active {
+  color: #fff;
+  background: linear-gradient(to right, #0C7400, #4AB102); 
+}
+
+#filterable-cards .cardjs.hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+                           /* ------------------------- */
+                              /* Responsive Section */
+                           /* ------------------------- */
+
+
+
+/* Header */
+@media (min-width: 0px) {
+    .Homenavbar {
+        background-position: right center;
+    }
+}
+@media (max-width: 600px) {
+    .search-container {
+        display: none;
+    }
+}
+
+

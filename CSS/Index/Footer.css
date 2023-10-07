@@ -1,0 +1,125 @@
+/*-------------------------*/
+    /*  FOOTER Section  */
+/*-------------------------*/
+
+.footer-logo{
+    height: 20%;
+    width: auto;
+}
+.footer-section {
+    background: url(/images/Png/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding: 4rem 0;
+    color: #fff;
+}
+
+.footer-2 p {
+    margin-top: 2rem;
+    font-size: 15px;
+    width: 90%;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.footer-3 span {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.footer-3 ul {
+    display: inline-block;
+    padding-left: 0;
+}
+
+.footer-3 ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer-3 ul li a {
+    margin-left: .8rem;
+    color: #fff;
+    transition: .4s;
+    font-size: 15px;
+}
+
+.footer-3 ul li a:hover {
+    color: #4AB102;
+}
+
+.footer-4 p {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #333535;
+    margin-bottom: 10px;
+}
+
+.footer-sub {
+    width: 90%;
+}
+
+.footer-5 {
+    font-size: 15px;
+}
+
+.footer-5 ul {
+    padding-left: 0;
+    line-height: 2.4;
+}
+
+.footer-5 ul li {
+    list-style: none;
+}
+
+.footer-5 ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .4s ease-out;
+}
+
+.footer-5 ul li a:hover {
+    color: #4AB102;
+    letter-spacing: 1px;
+}
+
+.footer-6 i {
+    display: inline-block;
+}
+
+.footer-6 p {
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 1rem;
+    margin-bottom: 10px;
+}
+
+.footer-6 i {
+    font-size: 16px;
+}
+
+.footer-6 span {
+    display: block;
+    margin-left: 1rem;
+}
+
+.footer-bottom {
+    background: #01262C;
+    border-top: 1px solid #333535;
+}
+
+.footer-bottom p {
+    color: #606060;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.footer-bottom p a {
+    color: #4AB102;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer-bottom p a:hover {
+    color: #fff;
+}

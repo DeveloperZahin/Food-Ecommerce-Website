@@ -1,0 +1,319 @@
+/* Bold HeadLine-------------         font-family: 'Barlow Condensed', sans-serif;            ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+/* Normalize ----------------font-family: 'Abel', sans-serif;------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* Style Italic Font---------         font-family: 'Abel', sans-serif; font-family: 'Shadows Into Light', cursive;            ------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Shadows+Into+Light&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+.center{
+    text-align: center;
+}       
+.Discorver{
+    color: rgb(6, 141, 6);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dancing Script';
+    margin-top: 5%;
+    transform: translateY(10px);
+    transition: 0.5s;
+}
+.TextHadding{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #01262C; 
+    line-height: 1.2;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+}
+.Discorver:hover{
+    color: #4AB102;
+    letter-spacing: 3px;
+}
+.TextHaddinp{
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.TextHaddinp:hover{
+    color: #1B1B1D;
+}
+                           /* -------------------- */
+                              /*  About Section */
+                           /* ---------------------*/
+.About_section{
+    background: url(/images/About\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 0;
+}
+.About_section p{
+    color: #0A262C;
+    margin-bottom: 2rem ;
+}
+      
+
+.Aboutimage1{
+    height: 70%;
+    width: auto;
+}
+
+
+h2,h3,h4{
+    font-weight: 600;
+    cursor: pointer;
+}
+.fi-bs-check{
+    color: #4AB102;
+}
+ul p{
+    font-size: 17px;
+}
+
+                  
+                           /* -------------------- */
+                              /*Mamber section   */
+                           /* ---------------------*/
+.food-team-items {
+    margin-top: -100px
+}
+
+.food-team-item {
+    margin-top: 100px;
+    padding: 20px 25px 0 25px;
+    position: relative;
+    height: 300px;
+    background: #0e1317;
+    text-align: center
+}
+
+.food-team-item .desc .name {
+    color: white;
+    font-family: 'Dancing Script';
+    margin: 0 0 5px 0;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.food-team-item .desc .subname {
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.food-team-item .image {
+    margin: 20px auto 0 auto;
+    position: relative;
+    height: 246px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px
+}
+
+.food-team-item .image:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #090c0f;
+    opacity: 0;
+    -o-transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    -webkit-transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    z-index: 2
+}
+
+.food-team-item .image img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center
+}
+
+.food-team-item .image:hover:before {
+    opacity: .75
+}
+
+.food-team-item .image:hover .info {
+    opacity: 1
+}
+
+.food-team-item .image:hover .social {
+    opacity: 1
+}
+
+.food-team-item .info {
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    opacity: 0;
+    -o-transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    -webkit-transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    z-index: 3
+}
+
+.food-team-item .info .label {
+    font-size: 16px;
+    color: #fff
+}
+
+.food-team-item .social {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    font-size: 0;
+    text-align: center;
+    opacity: 0;
+    -o-transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    -webkit-transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    z-index: 3
+}
+
+.food-team-item .social a {
+    margin: 6px 3px 0 3px;
+    display: inline-block;
+    vertical-align: top;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: #fff;
+    font-size: 16px;
+    color: #0A262C;;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    transition: all .7s cubic-bezier(.3, 0, .3, 1);
+    -webkit-transition: all .7s cubic-bezier(.3, 0, .3, 1)
+}
+
+.food-team-item .social a:hover {
+    color: #fff;
+    background: #0A262C;
+}
+
+
+
+
+
+
+                           /* -------------------- */
+                              /*Client & sucsess*/
+                           /* ---------------------*/
+.Clientphoto,
+.Successimage{
+    display: block;
+    margin-top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+}
+.Clienttitle{
+    color: #4AB102;
+    font-size: 15px;
+}
+
+.textright{
+    text-align: right;
+}
+.textright p{
+    margin-top: 10%;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+h5{
+    color: #4AB102;
+}
+.Founder{
+    color: grey;
+    font-size: 15px;
+    font-weight: 600;
+}
+.date{
+    font-size: 15px;
+    color: #FF0000;
+    margin: 12px 0;
+}
+.lorem{
+    font-size: 18px;
+}
+.lorem:hover{
+    color: #4AB102;
+}
+.Read{
+    font-size: 13px;
+    transition: 0.5s;
+}
+.Read:hover{
+    letter-spacing: 2px;
+    color: #FF0000;
+}
+.pointer{
+    cursor: pointer;
+}
+
+
+                          /* --------------------- */
+                             /* Numbering Section */
+                          /* --------------------- */
+
+.section.food-numbers {
+    padding: 70px 0
+}
+
+.food-numbers-items {
+    margin-top: -50px
+}
+
+.food-numbers-item {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.food-numbers-item .num {
+    font-size: 60px;
+    line-height: 1;
+    font-family: Oswald;
+    color: #0A414D;
+    font-weight: 300
+}
+
+.food-numbers-item .desc {
+    margin-left: 20px
+}
+
+.food-numbers-item .name {
+    font-size: 17px;
+    margin: 0 0 10px 0
+}
+
+
+
+
+@media screen and (max-width: 992px){
+    .smallscreen{
+        display: none;
+    }
+}
