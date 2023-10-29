@@ -168,7 +168,7 @@
   .about .play-btn {
     width: 94px;
     height: 94px;
-    background: radial-gradient (#0C7400 50%, #4AB102 52%);
+    background: radial-gradient(circle at center, #4AB102 50%, transparent 52%);
     border-radius: 50%;
     display: block;
     position: absolute;

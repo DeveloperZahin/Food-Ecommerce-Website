@@ -252,6 +252,11 @@ a{
   background-repeat: no-repeat;
   z-index: 1;
 }
+@media screen and (max-width: 1000px) {
+  .othernavbar{
+    padding: 0;
+  }
+}
 
 .other_content h2 {
   color: #0A262C;
