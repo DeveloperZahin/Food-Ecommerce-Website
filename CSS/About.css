@@ -44,39 +44,205 @@
 .TextHaddinp:hover{
     color: #1B1B1D;
 }
-                           /* -------------------- */
-                              /*  About Section */
-                           /* ---------------------*/
-.About_section{
-    background: url(/images/About\ \(2\).jpg);
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+    width: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 150px 0;
-}
-.About_section p{
-    color: #0A262C;
-    margin-bottom: 2rem ;
-}
-      
-
-.Aboutimage1{
-    height: 70%;
-    width: auto;
-}
-
-
-h2,h3,h4{
+    position: relative;
+    min-height: 60vh;
+    padding: 160px 0 60px 0;
+  }
+  
+  .hero h2 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+  }
+  
+  .hero h2 span {
+    color: var(--color-primary);
+  }
+  
+  .hero p {
+    color: #4f4f5a;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn-book-a-table {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4AB102;
+    box-shadow: 0 8px 28px #4AB102;
+  }
+  
+  .hero .btn-book-a-table:hover {
+    background: #0A414D;
+    box-shadow: 0 8px 28px #0A414D;
+  }
+  
+  .hero .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: var(--font-secondary);
     font-weight: 600;
-    cursor: pointer;
-}
-.fi-bs-check{
-    color: #4AB102;
-}
-ul p{
-    font-size: 17px;
-}
+  }
+  
+  .hero .btn-watch-video i {
+    color: var(--color-primary);
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+  }
+  
+  .hero .btn-watch-video:hover {
+    color: var(--color-primary);
+  }
+  
+  .hero .btn-watch-video:hover i {
+    color: rgba(206, 18, 18, 0.8);
+  }
+  
+  @media (max-width: 640px) {
+    .hero h2 {
+      font-size: 36px;
+    }
+  
+    .hero .btn-get-started,
+    .hero .btn-watch-video {
+      font-size: 14px;
+    }
+  }
 
+
+  .about .call-us {
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    background-color: #8ad951;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about .call-us h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-family: var(--font-default);
+  }
+  
+  .about .call-us p {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-primary);
+  }
+  
+
+
+
+
+
+
+  .about .play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(var(--color-primary) 50%, #4AB102 52%);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
+  }
+  
+  .about .play-btn:before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    animation-delay: 0s;
+    animation: pulsate-btn 2s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid #4AB102;
+    top: -15%;
+    left: -15%;
+    background: rgba(198, 16, 0, 0);
+  }
+  
+  .about .play-btn:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  .about .play-btn:hover:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 200;
+    animation: none;
+    border-radius: 0;
+  }
+  
+  .about .play-btn:hover:after {
+    border-left: 15px solid var(--color-primary);
+    transform: scale(20);
+  }
+  
+  @keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
                   
                            /* -------------------- */
                               /*Mamber section   */
@@ -313,7 +479,12 @@ h5{
 
 
 @media screen and (max-width: 992px){
-    .smallscreen{
+    .other_content,
+    .details
+    {
         display: none;
+    }
+    .othernavbar{
+        background-image: none;
     }
 }

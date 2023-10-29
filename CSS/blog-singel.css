@@ -1,0 +1,160 @@
+body{
+    font-size: 20px;
+}
+/*------/ Intro Single /------*/
+.intro-single {
+    padding: 12rem 0 3rem;
+  }
+  
+  @media (max-width: 767px) {
+    .intro-single {
+      padding-top: 9rem;
+    }
+  }
+  
+  .intro-single .title-single-box {
+    padding: 1rem 0 1rem 2rem;
+  }
+  
+  .intro-single .title-single-box {
+    border-left: 3px solid #4AB102;
+  }
+  
+  .intro-single .title-single-box .title-single {
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .intro-single .title-single-box .title-single {
+      font-size: 2.1rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .intro-single .title-single-box .title-single {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .intro-single .breadcrumb-box {
+    padding: 1rem 0 0 0.5rem;
+  }
+  
+  .intro-single .breadcrumb {
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4AB102;
+  }
+
+
+  /* Image */
+  .fi{
+    margin-top: 5%;
+  }
+
+  .fi-title{
+    padding: 20px;
+  }
+  
+  .fi-title .bold{
+    font-weight: 800;
+    margin-left: 1%;
+  }
+  
+  .fi-title .bold-a{
+    font-weight: 800;
+    margin-left: 0;
+  }
+
+
+  .m-l-r{
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top: 5%;
+  }
+  .m-l-r p{
+    font-size: 35px;
+  }
+  .bold{
+    font-weight: bolder;
+  }
+  .m-l-r .p{
+    margin-top: 5%;
+    color: gray;
+  }
+  .title-single-box p{
+    font-size: 25px;
+  }
+  .author{
+    font-size: 30px;
+    background: gainsboro;
+  }
+
+
+  /* social */
+  #social{
+    margin-top: 5%;
+    font-size: 20px;
+  }
+  #social a{
+    color: black;
+    margin-left: 2%;
+  }
+  #social a:hover{
+    color: #4AB102;
+  }
+  
+/* Comments */
+.title-single div{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.underline{
+    color: white;
+    margin-top: 3px;
+    width: 150px;
+    border-top: 4px solid #4AB102;
+}
+
+/* Comment Person */
+.img-fluid{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.comment-person .name{
+    font-size: 25px;
+}
+.comment-person .date{
+    color: rgb(133, 133, 133);
+    font-size: 20px;
+}
+.comment-person .reply{
+    color: #4AB102;
+    background: gainsboro;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.comment-person .reply:hover{
+    color: white;
+    background: #4AB102;
+}
+
+.comment-person .reply-comment{
+    margin: 50px 100px;
+}
+@media screen and (max-width: 1000px) {
+  .comment-person .reply-comment{
+    margin: 50px;
+}
+}

@@ -33,7 +33,7 @@
 
 .four_zero_four_bg
 {
-    background: url(/images/404.gif);
+    background: url(../images/404.gif);
     background-repeat: no-repeat;
     height: 400px;
     background-position: center;

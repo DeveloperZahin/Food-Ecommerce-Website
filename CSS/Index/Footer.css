@@ -7,7 +7,7 @@
     width: auto;
 }
 .footer-section {
-    background: url(/images/Png/footer_bg.png);
+    background: url(../../images/Png/footer_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;

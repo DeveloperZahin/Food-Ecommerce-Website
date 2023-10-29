@@ -1,0 +1,152 @@
+/*------/ Intro Single /------*/
+.intro-single {
+    padding: 12rem 0 3rem;
+  }
+  
+  @media (max-width: 767px) {
+    .intro-single {
+      padding-top: 9rem;
+    }
+  }
+  
+  .intro-single .title-single-box {
+    padding: 1rem 0 1rem 2rem;
+  }
+  
+  .intro-single .title-single-box {
+    border-left: 3px solid #4AB102;
+  }
+  
+  .intro-single .title-single-box .title-single {
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .intro-single .title-single-box .title-single {
+      font-size: 2.1rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .intro-single .title-single-box .title-single {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .intro-single .breadcrumb-box {
+    padding: 1rem 0 0 0.5rem;
+  }
+  
+  .intro-single .breadcrumb {
+    background-color: transparent;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+   /* -------------------- */
+      /*Client & sucsess*/
+   /* ---------------------*/
+.Clientphoto,
+.Successimage{
+    display: block;
+    margin-top: 40px !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+}
+.Clienttitle{
+    color: #4AB102;
+    font-size: 15px;
+}
+
+.textright{
+    text-align: right;
+}
+.textright p{
+    margin-top: 10%;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+}
+h5{
+    color: #4AB102;
+}
+.Founder{
+    color: grey;
+    font-size: 15px;
+    font-weight: 600;
+}
+.date{
+    font-size: 15px;
+    color: #FF0000;
+    margin: 12px 0;
+}
+.lorem{
+    font-size: 18px;
+}
+.lorem:hover{
+    color: #4AB102;
+}
+.Read{
+    font-size: 13px;
+    transition: 0.5s;
+}
+.Read:hover{
+    letter-spacing: 2px;
+    color: #FF0000;
+}
+.pointer{
+    cursor: pointer;
+}
+                        
+  *------/ Pagination-a /------*/
+.pgination-a {
+  text-decoration: none;
+}
+
+.pagination-a .pagination .page-link {
+    margin: 0 0.2rem;
+    border-color: transparent;
+    padding: 0.5rem 0.8rem;
+    color: #000000;
+}
+
+.pagination-a .pagination .page-link:hover,
+.pagination-a .pagination .page-link:active,
+.pagination-a .pagination .page-link:focus {
+ background-color: #02b116;
+}
+
+.pagination-a .pagination .page-link span {
+ font-size: 1.2rem;
+} 
+
+.pagination-a .pagination .next .page-link {
+ padding: 0.4rem 0.9rem;
+}
+
+.pagination-a .pagination .page-item:last-child .page-link {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.pagination-a .pagination .page-item:first-child .page-link {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.pagination-a .pagination .page-item.disabled .page-link {
+  padding: 0.4rem 0.9rem;
+  color: #555555;
+}
+
+.pagination-a .pagination .page-item.active .page-link {
+background-color: #4AB102;
+}
+
+a {
+  text-decoration: none;
+  color: #4AB102;
+}

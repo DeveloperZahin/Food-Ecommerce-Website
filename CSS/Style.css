@@ -55,7 +55,7 @@
 }
 .Homenavbar{
     padding: 20px 0;
-    background-image: url(/images/Bg-\(2\).jpg);
+    background-image: url(../images/Bg-\(2\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -553,5 +553,3 @@ img{
         display: none;
     }
 }
-
-

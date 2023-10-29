@@ -32,6 +32,10 @@ h6{
   font-family: "Livvic", sans-serif;
   text-transform: capitalize;
 }
+a{
+  text-decoration: none;
+  color: #02181c;
+}
 
 .smallheadline{
   color: #4AB102;
@@ -86,7 +90,7 @@ h6{
                            /* --------------------- */
 
 .navbar {
-  background: url(/images/Png/Navber.png);
+  background: url(../../images/Png/Navber.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -242,7 +246,7 @@ h6{
 .othernavbar{
   padding: 20px 0;
   position: relative;
-  background-image: url(/images/top-banner.jpg);
+  background-image: url(../../images/top-banner.jpg);
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
